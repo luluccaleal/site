@@ -4,3 +4,21 @@ body{
     font-size: 22px;
     color: black;
 }
+
+header{
+    background-color: aliceblue;  
+}
+header a {
+    color: blue;
+    text-decoration: none;
+}
+article a {
+    color: red;
+    text-decoration: none;
+    background-color: rgb(43, 226, 156) ;
+}
+
+footer {
+background-color: white;
+color: black
+}
