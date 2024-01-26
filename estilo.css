@@ -1,24 +1,42 @@
 body{
-    background-color: rgb(43, 226, 156);
+    background-color: wheat;
     font-family: calibri;
     font-size: 22px;
     color: black;
+    margin: 50px;
 }
 
-header{
-    background-color: aliceblue;  
+.topo {
+    background-color:brown;  
+    padding: 30px;
 }
-header a {
-    color: blue;
+.topo a {
+    color: white;
     text-decoration: none;
+    padding: 10px;
 }
 article a {
-    color: red;
+    color: blue;
     text-decoration: none;
-    background-color: rgb(43, 226, 156) ;
+    background-color:white;
+    padding: 20px;
 }
 
-footer {
-background-color: white;
-color: black
+article {
+    background-color: grey;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.rodape {
+   color: black;
+   background-color: brown;
+   padding: 50px;
+
+}   
+
+main{
+    padding: 50px;
 }
