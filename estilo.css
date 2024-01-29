@@ -5,30 +5,47 @@ body{
     color: black;
     margin: 50px;
 }
+ 
+.menu {
+    display: flex;
+    list-style: none; 
+    margin-left: 1350px;
+}
+.menu li{
+  margin-right: 2px;  
+}
 
+.menu a:hover{
+    color: blue;
+} 
 .topo {
     background-color:brown;  
-    padding: 30px;
+    padding: none;
 }
 .topo a {
     color: white;
     text-decoration: none;
     padding: 10px;
 }
-article a {
-    color: blue;
+.navegacao {
+   display: flex;
+
+}
+
+.botao {
+    color: black;
     text-decoration: none;
     background-color:white;
     padding: 20px;
 }
-
-article {
+.materia a:hover {
+    color: red;
+}
+.materia {
     background-color: grey;
     padding: 30px;
     margin-bottom: 30px;
 }
-
-
 
 .rodape {
    color: black;
@@ -38,5 +55,5 @@ article {
 }   
 
 main{
-    padding: 50px;
+    padding: none;
 }
