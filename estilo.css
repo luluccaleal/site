@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: wheat;
     font-family: calibri;
@@ -33,7 +37,7 @@ body{
 
 .navegacao {
    display: flex;
-
+   margin-bottom: 20px;
 }
 
 .titulo {
@@ -61,6 +65,8 @@ body{
     display: block;
     display: inline-block;
     border-radius: 30px;
+    font-size: 18px;
+    border: 0;
 }
 .botao:hover {
     background-color: wheat;
@@ -84,6 +90,36 @@ body{
 }
 .materia h1{
     margin-bottom: 10px;
+}
+.contato{
+    background-color:white;
+    padding: 50px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.rotulo {
+    display: block;
+    margin-bottom: 20px;
+}
+.campo {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: none;
+    background-color: #cccc;
+}
+textarea.campo {
+    height: 150px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.campo:focus {
+    background-color: white;
 }
 .rodape {
    color: black;
