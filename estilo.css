@@ -103,6 +103,7 @@ body{
 }
 .mapa {
     width: 100%;
+    margin-bottom: 10px;
 }
 .rotulo {
     display: block;
