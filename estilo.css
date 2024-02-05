@@ -59,13 +59,14 @@ body{
 
 .botao {
     color: black;
-    text-decoration: none;
+    text-decoration: black;
     background-color:grey;
     padding: 20px;
     display: block;
     display: inline-block;
     border-radius: 30px;
-    font-size: 18px;
+    font-style:italic;
+    font-size: 20px;
     border: 0;
 }
 .botao:hover {
@@ -78,9 +79,9 @@ body{
 }
 .materia {
     background-color: grey;
-    padding: 30px;
-    margin-bottom: 30px;
-    width: 600px;
+    padding:50px;
+    margin-bottom: 60px;
+    width: 800px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -99,6 +100,9 @@ body{
     margin-left: auto;
     font-size: 30px;
     margin-bottom: 40px;
+}
+.mapa {
+    width: 100%;
 }
 .rotulo {
     display: block;
